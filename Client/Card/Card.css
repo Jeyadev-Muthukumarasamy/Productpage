@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    width: 300px;
+    height: 420px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+  
+  .card img {
+    width: 141px;
+    height: 175px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .card .title {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    color: #141414;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 260px;
+    margin-top: 30px;
+  }
+  
+  .card .price {
+    width: 81px;
+    height: 39px;
+    font-family: 'Roboto';
+    color: #388E3C;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .card .buynow {
+    width: 160px;
+    height: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bold;
+    background-color: #fbbf23;
+    outline: 0;
+    border: 0;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+  .card .carts {
+    width: 160px;
+    height: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f41f0b;
+    outline: 0;
+    border: 0;
+    margin-left: 50px;
+  }
+  

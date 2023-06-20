@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+background-color: #ffffff;
+margin: 0;
+padding: 0;
+}
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .navbar {
+    background-color: #2874F0;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .nav-left ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-left ul li a{
+    color: #ffffff;
+    margin-right: 20px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+  }
+
+
+  .nav-left ul li a:hover{
+    text-decoration: underline;
+
+  }
+
+  
+  .content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 20px; 
+  }
+  
+  .title {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .descriptions {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: green;
+  }
+  
+  .right .description {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+
+  .ch {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+  }
+  .rating .ratingtitle{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+  }
+  
+ 
+  
+  .category {
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+    margin-top: 5px;
+    
+  }
+  
+  .rating {
+    font-size: 16px;
+    color: #2d6920;
+  }
+  
+  .no-details {
+    font-size: 18px;
+    margin-bottom: 10px
+  }  
+  .buynow-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .buynow-footer {
+    margin-top: auto;
+  }
+
